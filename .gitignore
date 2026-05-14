@@ -1,0 +1,22 @@
+# .gitignore
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment — never commit real env files
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
